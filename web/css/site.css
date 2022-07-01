@@ -1,0 +1,58 @@
+.required label::after {
+  color: red;
+  content: " *";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: inherit;
+}
+
+.pad-20 {
+  padding: 20px;
+}
+
+
+.select2-container--krajee .select2-selection--multiple .select2-selection__choice {
+  float: left;
+  color: #fff;
+  font-weight: 600;
+  background-color: #0665d0;
+  border: none;
+  border-radius: 0.25rem;
+}
+
+.select2-container--krajee .select2-selection--multiple .select2-selection__choice__remove {
+  font-size: 1.4rem;
+  text-shadow: none;
+  color:#FFFFFF;
+  opacity: 1;
+}
+
+hr.news1 {
+  border: 3px solid #1c3e65;
+}
+
+.bg-image {
+  margin: -28px -28px 35px -28px;
+}
+
+.fa-chicken:before {
+  content: url("../resources/images/icons/chicken.png");
+}
+
+.fa-butcher:before {
+  content: url("../resources/images/icons/butcher.png");
+}
+
+.fa-fodder:before {
+  content: url("../resources/images/icons/fodder.png");
+}
+
+.fa-milk:before {
+  content: url("../resources/images/icons/milk.png");
+}
